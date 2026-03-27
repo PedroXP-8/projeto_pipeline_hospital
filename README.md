@@ -1,4 +1,5 @@
-Pipeline de dados - hospital
+PIPELINE DE DADOS - HOSPITAL
+
 
 SOBRE O PROJETO:
 
@@ -57,15 +58,11 @@ PIPELINE:
     
 COMO EXECUTAR O PROJETO:
 
-  1. Clonar o repositório
-    git clone <seu-repositorio>
-    cd hospital-data-pipeline
+  1. Clonar o repositório: git clone <seu-repositorio> | cd hospital-data-pipeline
 
-  2. Instalar dependências
-    pip install -r requirements.txt
+  2. Instalar dependências: pip install -r requirements.txt
 
-  3. Executar a pipeline
-    python main.py
+  3. Executar a pipeline: python main.py
 
 
 OBJETIVO DO PROJETO:
