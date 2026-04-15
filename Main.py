@@ -11,6 +11,9 @@ from Sql import queries
 
 def main():
 
+    print("initializing pipeline. \n")
+    
+
     # Extracting data
     extract_doctors = extract.extract_data("Data/Raw/doctors.csv")
     extract_patients = extract.extract_data("Data/Raw/patients.csv")
@@ -41,7 +44,9 @@ def main():
     queries.query_general_information()
     queries.query_appointments_per_doctor()
     
-    print("All queries executed successfully.")
+    print("All queries executed successfully. \n")
+
+    print("end of pipeline.")
 
 if __name__ == "__main__":
     main()
